@@ -1,0 +1,112 @@
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ol, ul {
+    list-style-type: none;
+}
+
+h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0;
+}
+
+.lipstick.catalogArticlesList .catalogArticlesList_item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.lipstick.catalogArticlesList .catalogArticlesList_item {
+    position: relative;
+    margin: 0 28px 30px 0;
+}
+
+.lipstick.catalogArticlesList a[data-media] {
+    display: box;
+    display: -webkit-box;
+    display: flexbox;
+    display: -webkit-flex;
+    display: -ms-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+}
+
+a {
+    font-size: inherit;
+}
+
+.lipstick.catalogArticlesList a[data-media] img[data-media="packshot"] {
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -o-transform: scale(.8);
+    transform: scale(.8);
+}
+
+.lipstick.catalogArticlesList a[data-media] img {
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 1;
+}
+
+.lipstick.catalogArticlesList a[data-media] img {
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 1;
+}
+
+.lipstick.catalogArticlesList .catalogArticlesList_infoContent {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.lipstick.catalogArticlesList a, .lipstick.catalogArticlesList a:hover {
+    text-decoration: none;
+}
+
+.lipstick.catalogArticlesList .catalogArticlesList_item .catalogArticlesList_moreDetails {
+    height: 0;
+    overflow: hidden;
+}
+
+.lipstick.catalogArticlesList .catalogArticlesList_productVariants {
+    display: box;
+    display: -webkit-box;
+    display: flexbox;
+    display: -webkit-flex;
+    display: -ms-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #fff;
+    padding: 0 12px;
+}
+
+.lipstick.catalogArticlesList .catalogArticlesList_productVariants .carousel {
+    padding: 0;
+    margin: 0 0 8px;
+}
+
+ol, ul {
+    list-style-type: none;
+}
+
+.lipstick.catalogArticlesList .catalogArticlesList_productVariants a {
+    height: 47px;
+    width: 34px;
+}
+
